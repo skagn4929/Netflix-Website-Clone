@@ -10,7 +10,10 @@
 **클론 코딩을 통한 HTML 과 CSS 언어의 학습**
 
 ## 2. 프로젝트 주요 내용   
-**1. 헤더섹션에는 이미지를 넣고 좌측에는 넷플릭스 로고, 우측에는 언어선택 및 회원가입 버튼을 만들었습니다.**   
+**1. 헤더섹션에 넷플릭스 로고를 넣고 언어선택 및 회원가입 버튼을 만들었습니다.**
+
+![넷플1](https://github.com/skagn4929/Netflix-Website-Clone/assets/134206709/f75e59f7-b72a-45f7-bfce-434fada2a7cd)
+
 - HTML
 ```html
 <div class="header">
@@ -27,17 +30,6 @@
 ```
 - CSS
 ```css
-.header {
-  width: 100%;
-  height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(images/header-image.png);
-  background-size: cover;
-  background-position: center;
-  padding: 10px 8%;
-  position: relative;
-}
-
 nav {
   display: flex;
   align-items: center;
@@ -76,7 +68,10 @@ nav button {
 
 ---
 
-**2. 헤더섹션 중앙에는 환영 텍스트와 이메일 구독 양식을 만들었습니다.**
+**2. 헤더섹션 중앙에 환영 텍스트와 이메일 구독 양식을 만들었습니다.**
+
+![넷플2](https://github.com/skagn4929/Netflix-Website-Clone/assets/134206709/1c87a75e-1fa7-40b9-aa31-41be8f43a6b0)
+
 - HTML
 ```html
 <div class="header-content">
@@ -138,35 +133,35 @@ nav button {
 
 ---
 
-**3. 하단 중앙에는 FAQ를 만들어 + 버튼 클릭 시 세부사항이 표시되게 만들었습니다.**
+**3. 본문 하단에 FAQ를 만들어 + 버튼 클릭 시 세부사항이 표시되게 만들었습니다.**
 
 https://github.com/skagn4929/Netflix-Website-Clone/assets/134206709/e03603c2-c99d-43e8-bd82-ef7f918a20cf
 
 - HTML
 ```html
-    <div class="faq">
-      <h2>Frequently Asked Questions</h2>
-      <ul class="accordion">
-        <li>
-          <input type="radio" name="accordion" id="first" />
-          <label for="first">What is Netflix?</label>
-          <div class="content">
-            <p>
-              Netflix is a streaming service that offers a wide variety of
-              award-winning TV shows, movies, anime, documentaries, and more on
-              thousands of internet-connected devices. You can watch as much as
-              you want, whenever you want - all for one low monthly price.
-              There's always something new to discover and new TV shows and
-              movies are added every week!
-            </p>
-          </div>
-        </li>
-        <li>...생략...</li>
-        <li>...생략...</li>
-        <li>...생략...</li>
-        <li>...생략...</li>
-        <li>...생략...</li>
-      </ul>  
+<div class="faq">
+    <h2>Frequently Asked Questions</h2>
+    <ul class="accordion">
+      <li>
+        <input type="radio" name="accordion" id="first" />
+        <label for="first">What is Netflix?</label>
+        <div class="content">
+          <p>
+            Netflix is a streaming service that offers a wide variety of
+            award-winning TV shows, movies, anime, documentaries, and more on
+            thousands of internet-connected devices. You can watch as much as
+            you want, whenever you want - all for one low monthly price.
+            There's always something new to discover and new TV shows and
+            movies are added every week!
+          </p>
+        </div>
+      </li>
+      <li>...생략...</li>
+      <li>...생략...</li>
+      <li>...생략...</li>
+      <li>...생략...</li>
+      <li>...생략...</li>
+    </ul>  
 ```
 - CSS
 ```css
