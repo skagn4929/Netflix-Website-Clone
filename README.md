@@ -227,7 +227,7 @@ input[type="radio"] {
 
 ---
 
-### 이미지 참조
+### 이미지 참고
 - www.netflix.com
 
 
